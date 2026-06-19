@@ -78,16 +78,6 @@ TVBox 简易修改 多源版本 支持安卓4.4
 - 蓝奏云中LIVE版自用即可，可开机自启，直播资源来源于网络，可以自定义配置直播源（配置完需要重启应用生效）
 ### 测试可能不太够，有BUG请提issue
 ### Actions中有生成脚本
-### 发布流程
-
-本仓库默认使用 SSH 凭据推送：
-
-```bash
-git remote set-url origin git@github.com:MrZhaobh/boxTV.git
-git push origin main
-```
-
-APK 生成走 GitHub Actions 的 `GENERATE APK` 手动工作流，推送完成后在 Actions 中触发，产物会上传为 `box` artifact。
 
 ## Star History
 
